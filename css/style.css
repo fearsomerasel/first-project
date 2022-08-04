@@ -7,7 +7,7 @@
 
 html, body {
     width: 100%;
-    overflow-x: hidden!important;
+    /* overflow-x: hidden!important; */
     scroll-behavior:smooth;
     margin: 0;
     position: absolute;
@@ -1083,14 +1083,6 @@ margin-top: 0.5rem;
     }
 
 
-    /* .sec-2-center-div
-{
-    
-
-    width: 96%;
-    margin: auto;
-    margin-top: 5rem;
-} */
 
 
 
@@ -1748,9 +1740,10 @@ margin-top: -1.5rem;
 .mobile-view-steps
 {
     display: block!important;
-    margin-top: 3rem;
-   margin-left: -3.5%;
-   width: 32%;
+    margin-top: 2.5rem;
+   margin-left: .5%;
+   width: 16.3% !important;
+   height: 20%;
 
 }
 
@@ -1761,7 +1754,7 @@ margin-top: -1.5rem;
     position: absolute;
     margin-top: 2.5rem;
     right: 0;
-    left: 0;
+    left: -2.5rem;
     
 }
 
@@ -1790,9 +1783,9 @@ margin-top: -1.5rem;
 .second-step
 {
     position: absolute;
-    margin-top: 19rem;
+    margin-top: 17rem;
     right: 0;
-    left: -6.5rem;
+    left: -13rem;
     top: 0;
 
 }
@@ -1800,19 +1793,19 @@ margin-top: -1.5rem;
 .third-step 
 {
     position: absolute;
-    margin-top: 26rem;
+    margin-top: 23.5rem;
     right: 0;
     top: 0;
-    left: 0.1rem;
+    left: -3.2rem;
 }
 
 .fourth-step
 {
     position: absolute;
-    margin-top: 34rem;
+    margin-top: 31.5rem;
     right: 0;
     top: 0;
-    left: -7.2rem;
+    left: -13.5rem;
 
 
 }
@@ -1915,15 +1908,16 @@ margin-right: -16rem;
 {
     margin-right: 26rem!important;
     text-align: left!important;
-    /* margin-top: 10rem; */
-    /* background-color: #000000; */
+    margin-top: 10rem;
+   
 }
 
 .why-choose-her h5 
 {
     font-size: 1.2rem;
     /* background-color: #D4D3CB; */
-    margin-top: 7rem;
+    margin-top: 1.4rem;
+    margin-left: -5rem;
 }
 
 .why-choose-her h5 strong
@@ -1939,8 +1933,8 @@ margin-right: -16rem;
 }
 .why-choose-her p 
 {
-    width: 90%!important;
-    /* margin-left: 4rem; */
+    width: 40%!important;
+    margin-left: -7rem !important;
     font-size: 1.1rem;
     /* background-color: #000000; */
 }
@@ -1953,7 +1947,7 @@ margin-right: -16rem;
 
 .sec-4-tables
 {
-    /* margin-left: -10.3rem; */
+    margin-left: -1.5rem !important;
     margin-top: 27rem!important;
     
 }
@@ -2036,13 +2030,14 @@ margin-right: -16rem;
 {
     width: 7%;
     margin-top: -0.1rem!important;
-    margin-right: -6.6rem;
+    margin-right: -1rem;
 }
 
 .card-main-div
 {
     width: 100%;
-    margin-left: -1rem!important;
+    margin-left: rem!important;
+    position: relative;
 }
 
 .card-1
@@ -2053,8 +2048,8 @@ margin-right: -16rem;
 .card-two
 {
     position: absolute;
-    margin-top: -31.7rem!important;
-    margin-right: -13rem!important;
+    margin-top: -6.4rem!important;
+    margin-right: -9rem!important;
     right: 0;
 }
 
@@ -2067,6 +2062,7 @@ margin-right: -16rem;
 .card-three
 {
     display: none;
+    position: absolute;
 }
 
 
@@ -2220,27 +2216,35 @@ margin-right: 12%!important;
         /* margin-top: 0.1rem; */
         /* background-color: #000000; */
     }
+    .mobile-view-steps{
+        height: 100%;
+        width: 34% !important;
+        margin-left: -1.5rem;
+    }
 
-
+    .first-step{
+        margin-left: 8.5rem;
+        margin-top: 1.8rem;
+    }
 
     .second-step
 {
    
-    margin-top: 19.5rem;
-    left: -6.5rem;
+    margin-top: 18.5rem;
+    left: -6.20rem;
 
 }
 
 .third-step 
 {
-    margin-top: 26.5rem;
-    left: 0.1rem;
+    margin-top: 26rem;
+    left: -.21rem;
 }
 
 .fourth-step
 {
 
-    margin-top: 35rem;
+    margin-top: 34.9rem;
 
     left: -7.2rem;
     
@@ -2283,8 +2287,8 @@ margin-right: 12%!important;
 
 .why-choose-her
 {
-    margin-right: -5rem!important;
-    margin-top: 13rem!important;
+    margin-left: -4.7%;
+    margin-top: 10rem!important;
 }
 
 .why-choose-her h5 

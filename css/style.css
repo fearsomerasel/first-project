@@ -7,7 +7,7 @@
 
 html, body {
     width: 100%;
-    /* overflow-x: hidden!important; */
+    overflow-x: hidden!important;
     scroll-behavior:smooth;
     margin: 0;
     position: absolute;
@@ -29,7 +29,7 @@ html, body {
     background-image: linear-gradient(to right ,#fcd466,#FCBD11);
     padding: 8px 25px;
     border-radius: 100px;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 20px;
     border: none;
 }
@@ -2287,8 +2287,9 @@ margin-right: 12%!important;
 
 .why-choose-her
 {
-    margin-left: -4.7%;
-    margin-top: 10rem!important;
+    margin-left: 14.7%;
+    margin-top: 16rem!important;
+    width: 240%;
 }
 
 .why-choose-her h5 
@@ -2299,13 +2300,18 @@ margin-right: 12%!important;
 
 .why-choose-her strong
 {
-   margin-right: 47.4%!important;
+   margin-right: 70.4%!important;
+   margin-left: 1% !important;
 
+}
+.why-choose-her img{
+    margin-left: -80px;
 }
 
 .sec-4-tab3-div
 {
-    margin-top: 32rem;
+    margin-top: 28rem;
+    margin-left: auto;
 }
 
 .customize-td-sec-4 p

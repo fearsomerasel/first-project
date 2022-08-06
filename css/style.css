@@ -323,10 +323,12 @@ display: block;
     padding-top: 4rem ;
 }
 
-
+.sec-twotwo{
+    margin-left: 70px;
+}
 .is-your-child
 {
-    font-family: 'Segoe UI';
+
 font-style: normal;
 font-weight: 640;
 font-size: 2.1rem;
@@ -477,7 +479,7 @@ opacity: 0.9;
 
 .how-it-work
 {
-    margin-left: 19%;
+    margin-left: 12%;
 }
 
 .how-it-work h5 
@@ -641,7 +643,9 @@ opacity: 0.9;
 
 
 
-
+.who-we-are{
+    margin-left: -123px;
+}
 
 .who-we-are-img-div
 {
@@ -1004,10 +1008,10 @@ margin-top: 0.5rem;
 {
     display:inline-block; 
                   padding:0px; 
-                  margin-left:  -13px;
+                  margin-left:  5px !important;
                   margin-right:-39px;
                   margin-bottom: 0.3rem;
-                  width: 29%;
+                  width: 33% !important;
                   
 }
   }
@@ -1570,9 +1574,9 @@ left:0;
 
 .small-img-boxes-main
 {
-    width: 48.5%;
-    margin-right:-28px;
-    margin-left: 2px;
+    width: 47% !important;
+    margin-right:-19px !important;
+    margin-left: 5px !important;
 }
 
 .sec-twotwo
@@ -2257,9 +2261,9 @@ margin-right: 12%!important;
     }
     .small-img-boxes-main
 {
-    width: 48%;
-    margin-right:-28px;
-    margin-left: 1.4px;
+    width: 47%;
+    margin-right:-30px !important;
+    margin-left: 4px !important;
 }
 
     .book-consultation
